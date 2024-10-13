@@ -4,13 +4,14 @@ body {
   font-family:initial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
   --mainColor: #423630;
   --whiteningMainColor : #2b1313;
   --goldColor : #c19506a2;
   --grayColor : #b3aeae; 
    background-color: #100808;
   
-
+ 
  
   
 }
@@ -24,3 +25,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

@@ -1,20 +1,24 @@
 import React from 'react';
 import './index.css';
-import SignUp from './SignUp';
-import SignIn from './SignIn';
-import './form.css';
-import Home from './Home';
-import './Home.css';
-import OrderBook from './OrderBook';
-import './OrderBook.css';
-import Books from './Books';
-import './categories.css';
-import Author from './Author';
+import SignUp from './js/SignUp';
+import SignIn from './js/SignIn';
+import './css/form.css';
+import './css/Header.css'
+import Home from './js/Home';
+import './css/Home.css';
+import OrderBook from './js/OrderBook';
+import './css/OrderBook.css';
+import Books from './js/Books';
+import './css/categories.css';
+import Author from './js/Author';
+import './css/responsive.css'
+import AuthorProfile from './js/authorProfile';
+import './css/authorProfile.css';
+import BookProfile from './js/bookProfile';
+import './css/BookProfile.css';
+import './css/SearchBar.css'
 
-import AuthorProfile from './authorProfile';
-import './authorProfile.css';
-import BookProfile from './bookProfile';
-import './BookProfile.css'
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (

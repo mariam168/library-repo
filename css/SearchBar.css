@@ -1,0 +1,77 @@
+
+.pluring{
+    background-color: rgba(0, 0, 0, 0.651) ;
+    width: 99.5%;
+    height: 99%;
+    position: absolute;
+    top: 80px;
+    z-index: 49;   
+
+   
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    
+}
+
+.navSearch {
+    background-image: url('../books-images/rollPaper\ 1.png');
+    background-size: cover;
+    border: none;
+    width: 400px;
+    height: 300px;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+    
+   
+    }
+
+.navSearchContent{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     top: 50px;
+     left: -10px;
+     
+}
+
+
+
+.navSearchContent input{
+    width: 280px;
+    height: 40px;
+    border-color: transparent;
+    background-color:  #5a463b48;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.navSearchContent .navSearchButton{
+    display: flex;
+    flex-direction: row;
+}
+.navSearchContent button{
+    padding: 8px 12px;
+    width: 100px;
+    background-color: var(--whiteningMainColor);
+    border-color: transparent;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 10px 3px;
+    
+}
